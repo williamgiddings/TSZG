@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: 72c64f4ba7cf68b4f9a96d8d580e9f0b
+timeCreated: 1480868572
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AA-12
+    100002: //RootNode
+    100004: aa12
+    100006: aa12_base
+    100008: aa12_bolt
+    100010: aa12_bolt_end
+    100012: aa12_mag
+    100014: aa12_mag_end
+    100016: l_hand
+    100018: l_hand_end
+    100020: r_hand
+    100022: r_hand_end
+    100024: aa12_bolt_end_end
+    100026: aa12_mag_end_end
+    100028: l_hand_end_end
+    100030: r_hand_end_end
+    400000: AA-12
+    400002: //RootNode
+    400004: aa12
+    400006: aa12_base
+    400008: aa12_bolt
+    400010: aa12_bolt_end
+    400012: aa12_mag
+    400014: aa12_mag_end
+    400016: l_hand
+    400018: l_hand_end
+    400020: r_hand
+    400022: r_hand_end
+    400024: aa12_bolt_end_end
+    400026: aa12_mag_end_end
+    400028: l_hand_end_end
+    400030: r_hand_end_end
+    2300000: AA-12
+    3300000: AA-12
+    4300000: AA-12
+    7400000: aa12_fire
+    7400002: aa12_idle
+    7400004: aa12_reload
+    7400006: aa12_holster
+    7400008: aa12_draw
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: AA-12
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: aa12_fire
+      takeName: aa12|ArmatureAction
+      firstFrame: 170
+      lastFrame: 178
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AA-12
+        weight: 1
+      - path: aa12
+        weight: 1
+      - path: aa12/aa12_base
+        weight: 1
+      - path: aa12/aa12_base/aa12_bolt
+        weight: 1
+      - path: aa12/aa12_base/aa12_bolt/aa12_bolt_end
+        weight: 1
+      - path: aa12/aa12_base/aa12_bolt/aa12_bolt_end/aa12_bolt_end_end
+        weight: 1
+      - path: aa12/aa12_base/aa12_mag
+        weight: 1
+      - path: aa12/aa12_base/aa12_mag/aa12_mag_end
+        weight: 1
+      - path: aa12/aa12_base/aa12_mag/aa12_mag_end/aa12_mag_end_end
+        weight: 1
+      - path: aa12/aa12_base/l_hand
+        weight: 1
+      - path: aa12/aa12_base/l_hand/l_hand_end
+        weight: 1
+      - path: aa12/aa12_base/l_hand/l_hand_end/l_hand_end_end
+        weight: 1
+      - path: aa12/aa12_base/r_hand
+        weight: 1
+      - path: aa12/aa12_base/r_hand/r_hand_end
+        weight: 1
+      - path: aa12/aa12_base/r_hand/r_hand_end/r_hand_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aa12_idle
+      takeName: aa12|ArmatureAction
+      firstFrame: 1
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AA-12
+        weight: 1
+      - path: aa12
+        weight: 1
+      - path: aa12/aa12_base
+        weight: 1
+      - path: aa12/aa12_base/aa12_bolt
+        weight: 1
+      - path: aa12/aa12_base/aa12_bolt/aa12_bolt_end
+        weight: 1
+      - path: aa12/aa12_base/aa12_bolt/aa12_bolt_end/aa12_bolt_end_end
+        weight: 1
+      - path: aa12/aa12_base/aa12_mag
+        weight: 1
+      - path: aa12/aa12_base/aa12_mag/aa12_mag_end
+        weight: 1
+      - path: aa12/aa12_base/aa12_mag/aa12_mag_end/aa12_mag_end_end
+        weight: 1
+      - path: aa12/aa12_base/l_hand
+        weight: 1
+      - path: aa12/aa12_base/l_hand/l_hand_end
+        weight: 1
+      - path: aa12/aa12_base/l_hand/l_hand_end/l_hand_end_end
+        weight: 1
+      - path: aa12/aa12_base/r_hand
+        weight: 1
+      - path: aa12/aa12_base/r_hand/r_hand_end
+        weight: 1
+      - path: aa12/aa12_base/r_hand/r_hand_end/r_hand_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aa12_reload
+      takeName: aa12|ArmatureAction
+      firstFrame: 190
+      lastFrame: 337
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AA-12
+        weight: 1
+      - path: aa12
+        weight: 1
+      - path: aa12/aa12_base
+        weight: 1
+      - path: aa12/aa12_base/aa12_bolt
+        weight: 1
+      - path: aa12/aa12_base/aa12_bolt/aa12_bolt_end
+        weight: 1
+      - path: aa12/aa12_base/aa12_bolt/aa12_bolt_end/aa12_bolt_end_end
+        weight: 1
+      - path: aa12/aa12_base/aa12_mag
+        weight: 1
+      - path: aa12/aa12_base/aa12_mag/aa12_mag_end
+        weight: 1
+      - path: aa12/aa12_base/aa12_mag/aa12_mag_end/aa12_mag_end_end
+        weight: 1
+      - path: aa12/aa12_base/l_hand
+        weight: 1
+      - path: aa12/aa12_base/l_hand/l_hand_end
+        weight: 1
+      - path: aa12/aa12_base/l_hand/l_hand_end/l_hand_end_end
+        weight: 1
+      - path: aa12/aa12_base/r_hand
+        weight: 1
+      - path: aa12/aa12_base/r_hand/r_hand_end
+        weight: 1
+      - path: aa12/aa12_base/r_hand/r_hand_end/r_hand_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aa12_holster
+      takeName: aa12|ArmatureAction
+      firstFrame: 337
+      lastFrame: 350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AA-12
+        weight: 1
+      - path: aa12
+        weight: 1
+      - path: aa12/aa12_base
+        weight: 1
+      - path: aa12/aa12_base/aa12_bolt
+        weight: 1
+      - path: aa12/aa12_base/aa12_bolt/aa12_bolt_end
+        weight: 1
+      - path: aa12/aa12_base/aa12_bolt/aa12_bolt_end/aa12_bolt_end_end
+        weight: 1
+      - path: aa12/aa12_base/aa12_mag
+        weight: 1
+      - path: aa12/aa12_base/aa12_mag/aa12_mag_end
+        weight: 1
+      - path: aa12/aa12_base/aa12_mag/aa12_mag_end/aa12_mag_end_end
+        weight: 1
+      - path: aa12/aa12_base/l_hand
+        weight: 1
+      - path: aa12/aa12_base/l_hand/l_hand_end
+        weight: 1
+      - path: aa12/aa12_base/l_hand/l_hand_end/l_hand_end_end
+        weight: 1
+      - path: aa12/aa12_base/r_hand
+        weight: 1
+      - path: aa12/aa12_base/r_hand/r_hand_end
+        weight: 1
+      - path: aa12/aa12_base/r_hand/r_hand_end/r_hand_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aa12_draw
+      takeName: aa12|ArmatureAction
+      firstFrame: 360
+      lastFrame: 372
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AA-12
+        weight: 1
+      - path: aa12
+        weight: 1
+      - path: aa12/aa12_base
+        weight: 1
+      - path: aa12/aa12_base/aa12_bolt
+        weight: 1
+      - path: aa12/aa12_base/aa12_bolt/aa12_bolt_end
+        weight: 1
+      - path: aa12/aa12_base/aa12_bolt/aa12_bolt_end/aa12_bolt_end_end
+        weight: 1
+      - path: aa12/aa12_base/aa12_mag
+        weight: 1
+      - path: aa12/aa12_base/aa12_mag/aa12_mag_end
+        weight: 1
+      - path: aa12/aa12_base/aa12_mag/aa12_mag_end/aa12_mag_end_end
+        weight: 1
+      - path: aa12/aa12_base/l_hand
+        weight: 1
+      - path: aa12/aa12_base/l_hand/l_hand_end
+        weight: 1
+      - path: aa12/aa12_base/l_hand/l_hand_end/l_hand_end_end
+        weight: 1
+      - path: aa12/aa12_base/r_hand
+        weight: 1
+      - path: aa12/aa12_base/r_hand/r_hand_end
+        weight: 1
+      - path: aa12/aa12_base/r_hand/r_hand_end/r_hand_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

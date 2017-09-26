@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: fdf2c99b6d0583944bd8249b044228b0
+timeCreated: 1479676531
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Sphere
+    100004: //RootNode
+    100006: zombie_body
+    100008: zombie_head
+    100010: zombie_head_end
+    100012: zombie_lhand
+    100014: zombie_lhand_end
+    100016: zombie_rhand
+    100018: zombie_rhand_end
+    100020: body
+    100022: hand_l
+    100024: hand_l_end
+    100026: hand_l_IKSolver
+    100028: hand_l_IKSolver_end
+    100030: hand_r
+    100032: hand_r_end
+    100034: hand_r_IKSolver
+    100036: hand_r_IKSolver_end
+    100038: head
+    100040: head_end
+    100042: leg_l
+    100044: leg_l_end
+    100046: leg_r
+    100048: leg_r_end
+    100050: lower_arm_l
+    100052: lower_arm_r
+    100054: lower_body
+    100056: Sphere.001
+    100058: upper_arm_l
+    100060: upper_arm_r
+    400000: Armature
+    400002: Sphere
+    400004: //RootNode
+    400006: zombie_body
+    400008: zombie_head
+    400010: zombie_head_end
+    400012: zombie_lhand
+    400014: zombie_lhand_end
+    400016: zombie_rhand
+    400018: zombie_rhand_end
+    400020: body
+    400022: hand_l
+    400024: hand_l_end
+    400026: hand_l_IKSolver
+    400028: hand_l_IKSolver_end
+    400030: hand_r
+    400032: hand_r_end
+    400034: hand_r_IKSolver
+    400036: hand_r_IKSolver_end
+    400038: head
+    400040: head_end
+    400042: leg_l
+    400044: leg_l_end
+    400046: leg_r
+    400048: leg_r_end
+    400050: lower_arm_l
+    400052: lower_arm_r
+    400054: lower_body
+    400056: Sphere.001
+    400058: upper_arm_l
+    400060: upper_arm_r
+    4300000: Sphere
+    4300002: Sphere.001
+    7400000: zombie_idle
+    7400002: zombie_run
+    7400004: zombie_walk
+    7400006: zombie_lightattack
+    7400008: zombie_search
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Sphere
+    13700002: Sphere.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: zombie_idle
+      takeName: Armature|ArmatureAction
+      firstFrame: 1
+      lastFrame: 180
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/zombie_body
+        weight: 1
+      - path: Armature/zombie_body/zombie_head
+        weight: 1
+      - path: Armature/zombie_body/zombie_head/zombie_head_end
+        weight: 1
+      - path: Armature/zombie_body/zombie_lhand
+        weight: 1
+      - path: Armature/zombie_body/zombie_lhand/zombie_lhand_end
+        weight: 1
+      - path: Armature/zombie_body/zombie_rhand
+        weight: 1
+      - path: Armature/zombie_body/zombie_rhand/zombie_rhand_end
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: zombie_run
+      takeName: Armature|ArmatureAction
+      firstFrame: 190
+      lastFrame: 210
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/zombie_body
+        weight: 1
+      - path: Armature/zombie_body/zombie_head
+        weight: 1
+      - path: Armature/zombie_body/zombie_head/zombie_head_end
+        weight: 1
+      - path: Armature/zombie_body/zombie_lhand
+        weight: 1
+      - path: Armature/zombie_body/zombie_lhand/zombie_lhand_end
+        weight: 1
+      - path: Armature/zombie_body/zombie_rhand
+        weight: 1
+      - path: Armature/zombie_body/zombie_rhand/zombie_rhand_end
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: zombie_walk
+      takeName: Armature|ArmatureAction
+      firstFrame: 220
+      lastFrame: 260
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/zombie_body
+        weight: 1
+      - path: Armature/zombie_body/zombie_head
+        weight: 1
+      - path: Armature/zombie_body/zombie_head/zombie_head_end
+        weight: 1
+      - path: Armature/zombie_body/zombie_lhand
+        weight: 1
+      - path: Armature/zombie_body/zombie_lhand/zombie_lhand_end
+        weight: 1
+      - path: Armature/zombie_body/zombie_rhand
+        weight: 1
+      - path: Armature/zombie_body/zombie_rhand/zombie_rhand_end
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: zombie_lightattack
+      takeName: Armature|ArmatureAction
+      firstFrame: 270
+      lastFrame: 290
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/zombie_body
+        weight: 1
+      - path: Armature/zombie_body/zombie_head
+        weight: 1
+      - path: Armature/zombie_body/zombie_head/zombie_head_end
+        weight: 1
+      - path: Armature/zombie_body/zombie_lhand
+        weight: 1
+      - path: Armature/zombie_body/zombie_lhand/zombie_lhand_end
+        weight: 1
+      - path: Armature/zombie_body/zombie_rhand
+        weight: 1
+      - path: Armature/zombie_body/zombie_rhand/zombie_rhand_end
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: zombie_search
+      takeName: Armature|ArmatureAction
+      firstFrame: 301
+      lastFrame: 339
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/zombie_body
+        weight: 1
+      - path: Armature/zombie_body/zombie_head
+        weight: 1
+      - path: Armature/zombie_body/zombie_head/zombie_head_end
+        weight: 1
+      - path: Armature/zombie_body/zombie_lhand
+        weight: 1
+      - path: Armature/zombie_body/zombie_lhand/zombie_lhand_end
+        weight: 1
+      - path: Armature/zombie_body/zombie_rhand
+        weight: 1
+      - path: Armature/zombie_body/zombie_rhand/zombie_rhand_end
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.175
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

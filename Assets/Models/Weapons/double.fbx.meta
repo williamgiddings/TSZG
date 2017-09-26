@@ -1,0 +1,394 @@
+fileFormatVersion: 2
+guid: e095eff9d087a5b428e4a18edee773e2
+timeCreated: 1485284893
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: boomstick
+    100002: boomstick_armature
+    100004: boomstick_barrels
+    100006: boomstick_base
+    100008: boomstick_shell_0
+    100010: boomstick_shell_0_end
+    100012: boomstick_shell_1
+    100014: boomstick_shell_1_end
+    100016: //RootNode
+    100018: l_hand
+    100020: l_hand_end
+    100022: r_hand
+    100024: r_hand_end
+    100026: Camera
+    400000: boomstick
+    400002: boomstick_armature
+    400004: boomstick_barrels
+    400006: boomstick_base
+    400008: boomstick_shell_0
+    400010: boomstick_shell_0_end
+    400012: boomstick_shell_1
+    400014: boomstick_shell_1_end
+    400016: //RootNode
+    400018: l_hand
+    400020: l_hand_end
+    400022: r_hand
+    400024: r_hand_end
+    400026: Camera
+    4300000: boomstick
+    7400000: double_idle
+    7400002: double_fire
+    7400004: double_reload
+    7400006: double_holster
+    7400008: double_draw
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: boomstick
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: double_idle
+      takeName: boomstick_armature|boomstick_armatureAction.001
+      firstFrame: 0
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boomstick
+        weight: 1
+      - path: boomstick_armature
+        weight: 1
+      - path: boomstick_armature/boomstick_base
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_0
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_0/boomstick_shell_0_end
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_1
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_1/boomstick_shell_1_end
+        weight: 1
+      - path: boomstick_armature/boomstick_base/l_hand
+        weight: 1
+      - path: boomstick_armature/boomstick_base/l_hand/l_hand_end
+        weight: 1
+      - path: boomstick_armature/boomstick_base/r_hand
+        weight: 1
+      - path: boomstick_armature/boomstick_base/r_hand/r_hand_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: double_fire
+      takeName: boomstick_armature|boomstick_armatureAction.001
+      firstFrame: 260
+      lastFrame: 280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boomstick
+        weight: 1
+      - path: boomstick_armature
+        weight: 1
+      - path: boomstick_armature/boomstick_base
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_0
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_0/boomstick_shell_0_end
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_1
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_1/boomstick_shell_1_end
+        weight: 1
+      - path: boomstick_armature/boomstick_base/l_hand
+        weight: 1
+      - path: boomstick_armature/boomstick_base/l_hand/l_hand_end
+        weight: 1
+      - path: boomstick_armature/boomstick_base/r_hand
+        weight: 1
+      - path: boomstick_armature/boomstick_base/r_hand/r_hand_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: double_reload
+      takeName: boomstick_armature|boomstick_armatureAction.001
+      firstFrame: 290
+      lastFrame: 408
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boomstick
+        weight: 1
+      - path: boomstick_armature
+        weight: 1
+      - path: boomstick_armature/boomstick_base
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_0
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_0/boomstick_shell_0_end
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_1
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_1/boomstick_shell_1_end
+        weight: 1
+      - path: boomstick_armature/boomstick_base/l_hand
+        weight: 1
+      - path: boomstick_armature/boomstick_base/l_hand/l_hand_end
+        weight: 1
+      - path: boomstick_armature/boomstick_base/r_hand
+        weight: 1
+      - path: boomstick_armature/boomstick_base/r_hand/r_hand_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: double_holster
+      takeName: boomstick_armature|boomstick_armatureAction.001
+      firstFrame: 430
+      lastFrame: 450
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boomstick
+        weight: 1
+      - path: boomstick_armature
+        weight: 1
+      - path: boomstick_armature/boomstick_base
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_0
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_0/boomstick_shell_0_end
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_1
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_1/boomstick_shell_1_end
+        weight: 1
+      - path: boomstick_armature/boomstick_base/l_hand
+        weight: 1
+      - path: boomstick_armature/boomstick_base/l_hand/l_hand_end
+        weight: 1
+      - path: boomstick_armature/boomstick_base/r_hand
+        weight: 1
+      - path: boomstick_armature/boomstick_base/r_hand/r_hand_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: double_draw
+      takeName: boomstick_armature|boomstick_armatureAction.001
+      firstFrame: 460
+      lastFrame: 479
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boomstick
+        weight: 1
+      - path: boomstick_armature
+        weight: 1
+      - path: boomstick_armature/boomstick_base
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_0
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_0/boomstick_shell_0_end
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_1
+        weight: 1
+      - path: boomstick_armature/boomstick_base/boomstick_barrels/boomstick_shell_1/boomstick_shell_1_end
+        weight: 1
+      - path: boomstick_armature/boomstick_base/l_hand
+        weight: 1
+      - path: boomstick_armature/boomstick_base/l_hand/l_hand_end
+        weight: 1
+      - path: boomstick_armature/boomstick_base/r_hand
+        weight: 1
+      - path: boomstick_armature/boomstick_base/r_hand/r_hand_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

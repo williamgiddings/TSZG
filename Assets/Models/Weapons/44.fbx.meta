@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: a84757734314f3547ad83c9ab9f4b1eb
+timeCreated: 1479600157
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: 44
+    100004: 44.001
+    100006: base
+    100008: Camera
+    100010: chamber
+    100012: l_hand
+    100014: l_hand_end
+    100016: r_hand
+    100018: r_hand_end
+    100020: shell_0
+    100022: shell_0_end
+    100024: shell_1
+    100026: shell_1_end
+    400000: //RootNode
+    400002: 44
+    400004: 44.001
+    400006: base
+    400008: Camera
+    400010: chamber
+    400012: l_hand
+    400014: l_hand_end
+    400016: r_hand
+    400018: r_hand_end
+    400020: shell_0
+    400022: shell_0_end
+    400024: shell_1
+    400026: shell_1_end
+    4300000: 44
+    7400000: 44_idle
+    7400002: 44_fire
+    7400004: 44_reload
+    7400006: 44_draw
+    7400008: 44_holster
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: 44
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: 44_idle
+      takeName: 44.001|44.001Action
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 44
+        weight: 1
+      - path: 44.001
+        weight: 1
+      - path: 44.001/base
+        weight: 1
+      - path: 44.001/base/chamber
+        weight: 1
+      - path: 44.001/base/chamber/shell_0
+        weight: 1
+      - path: 44.001/base/chamber/shell_0/shell_0_end
+        weight: 1
+      - path: 44.001/base/chamber/shell_1
+        weight: 1
+      - path: 44.001/base/chamber/shell_1/shell_1_end
+        weight: 1
+      - path: 44.001/base/l_hand
+        weight: 1
+      - path: 44.001/base/l_hand/l_hand_end
+        weight: 1
+      - path: 44.001/base/r_hand
+        weight: 1
+      - path: 44.001/base/r_hand/r_hand_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 44_fire
+      takeName: 44.001|44.001Action
+      firstFrame: 130
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 44
+        weight: 1
+      - path: 44.001
+        weight: 1
+      - path: 44.001/base
+        weight: 1
+      - path: 44.001/base/chamber
+        weight: 1
+      - path: 44.001/base/chamber/shell_0
+        weight: 1
+      - path: 44.001/base/chamber/shell_0/shell_0_end
+        weight: 1
+      - path: 44.001/base/chamber/shell_1
+        weight: 1
+      - path: 44.001/base/chamber/shell_1/shell_1_end
+        weight: 1
+      - path: 44.001/base/l_hand
+        weight: 1
+      - path: 44.001/base/l_hand/l_hand_end
+        weight: 1
+      - path: 44.001/base/r_hand
+        weight: 1
+      - path: 44.001/base/r_hand/r_hand_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 44_reload
+      takeName: 44.001|44.001Action
+      firstFrame: 160
+      lastFrame: 341
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 44
+        weight: 1
+      - path: 44.001
+        weight: 1
+      - path: 44.001/base
+        weight: 1
+      - path: 44.001/base/chamber
+        weight: 1
+      - path: 44.001/base/chamber/shell_0
+        weight: 1
+      - path: 44.001/base/chamber/shell_0/shell_0_end
+        weight: 1
+      - path: 44.001/base/chamber/shell_1
+        weight: 1
+      - path: 44.001/base/chamber/shell_1/shell_1_end
+        weight: 1
+      - path: 44.001/base/l_hand
+        weight: 1
+      - path: 44.001/base/l_hand/l_hand_end
+        weight: 1
+      - path: 44.001/base/r_hand
+        weight: 1
+      - path: 44.001/base/r_hand/r_hand_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 44_draw
+      takeName: 44.001|44.001Action
+      firstFrame: 350
+      lastFrame: 387
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 44
+        weight: 1
+      - path: 44.001
+        weight: 1
+      - path: 44.001/base
+        weight: 1
+      - path: 44.001/base/chamber
+        weight: 1
+      - path: 44.001/base/chamber/shell_0
+        weight: 1
+      - path: 44.001/base/chamber/shell_0/shell_0_end
+        weight: 1
+      - path: 44.001/base/chamber/shell_1
+        weight: 1
+      - path: 44.001/base/chamber/shell_1/shell_1_end
+        weight: 1
+      - path: 44.001/base/l_hand
+        weight: 1
+      - path: 44.001/base/l_hand/l_hand_end
+        weight: 1
+      - path: 44.001/base/r_hand
+        weight: 1
+      - path: 44.001/base/r_hand/r_hand_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 44_holster
+      takeName: 44.001|44.001Action
+      firstFrame: 395
+      lastFrame: 404
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 44
+        weight: 1
+      - path: 44.001
+        weight: 1
+      - path: 44.001/base
+        weight: 1
+      - path: 44.001/base/chamber
+        weight: 1
+      - path: 44.001/base/chamber/shell_0
+        weight: 1
+      - path: 44.001/base/chamber/shell_0/shell_0_end
+        weight: 1
+      - path: 44.001/base/chamber/shell_1
+        weight: 1
+      - path: 44.001/base/chamber/shell_1/shell_1_end
+        weight: 1
+      - path: 44.001/base/l_hand
+        weight: 1
+      - path: 44.001/base/l_hand/l_hand_end
+        weight: 1
+      - path: 44.001/base/r_hand
+        weight: 1
+      - path: 44.001/base/r_hand/r_hand_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

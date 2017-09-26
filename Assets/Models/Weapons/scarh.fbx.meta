@@ -1,0 +1,602 @@
+fileFormatVersion: 2
+guid: 44950dcaaace9264d852aaad6a5bad2b
+timeCreated: 1470158855
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Armature
+    100004: Camera
+    100006: HandsBase
+    100008: lhand
+    100010: lhand_end
+    100012: rhand
+    100014: rhand_end
+    100016: Scarh_arm
+    100018: Scarh_base
+    100020: scarh_base
+    100022: Scarh_bolt
+    100024: Scarh_bolt_end
+    100026: Scarh_mag
+    100028: Scarh_mag_end
+    100030: lhand_end_end
+    100032: lhand_end_end_end
+    100034: rhand_end_end
+    100036: rhand_end_end_end
+    100038: scarh_base.001
+    100040: Scarh_bolt_end_end
+    100042: Scarh_bolt_end_end_end
+    100044: Scarh_mag_end_end
+    100046: Scarh_mag_end_end_end
+    100048: lhand_end_end_end_end
+    100050: rhand_end_end_end_end
+    100052: Scarh_bolt_end_end_end_end
+    100054: Scarh_mag_end_end_end_end
+    100056: HandsBase 1
+    100058: lhand 1
+    100060: lhand_end 1
+    100062: lhand_end_end 1
+    100064: lhand_end_end_end 1
+    100066: lhand_end_end_end_end 1
+    100068: lhand_end_end_end_end_end
+    100070: lhand_end_end_end_end_end 1
+    100072: rhand 1
+    100074: rhand_end 1
+    100076: rhand_end_end 1
+    100078: rhand_end_end_end 1
+    100080: rhand_end_end_end_end 1
+    100082: rhand_end_end_end_end_end
+    100084: rhand_end_end_end_end_end 1
+    100086: Scarh_arm.001
+    100088: Scarh_base 1
+    100090: Scarh_bolt 1
+    100092: Scarh_bolt_end 1
+    100094: Scarh_bolt_end_end 1
+    100096: Scarh_bolt_end_end_end 1
+    100098: Scarh_bolt_end_end_end_end 1
+    100100: Scarh_bolt_end_end_end_end_end
+    100102: Scarh_bolt_end_end_end_end_end 1
+    100104: Scarh_mag 1
+    100106: Scarh_mag_end 1
+    100108: Scarh_mag_end_end 1
+    100110: Scarh_mag_end_end_end 1
+    100112: Scarh_mag_end_end_end_end 1
+    100114: Scarh_mag_end_end_end_end_end
+    100116: Scarh_mag_end_end_end_end_end 1
+    100118: lhand_end_end_end_end_end_end
+    100120: rhand_end_end_end_end_end_end
+    100122: Scarh_bolt_end_end_end_end_end_end
+    100124: Scarh_mag_end_end_end_end_end_end
+    100126: lhand_end_end_end_end_end_end_end
+    100128: rhand_end_end_end_end_end_end_end
+    100130: Scarh_bolt_end_end_end_end_end_end_end
+    100132: Scarh_mag_end_end_end_end_end_end_end
+    400000: //RootNode
+    400002: Armature
+    400004: Camera
+    400006: HandsBase
+    400008: lhand
+    400010: lhand_end
+    400012: rhand
+    400014: rhand_end
+    400016: Scarh_arm
+    400018: Scarh_base
+    400020: scarh_base
+    400022: Scarh_bolt
+    400024: Scarh_bolt_end
+    400026: Scarh_mag
+    400028: Scarh_mag_end
+    400030: lhand_end_end
+    400032: lhand_end_end_end
+    400034: rhand_end_end
+    400036: rhand_end_end_end
+    400038: scarh_base.001
+    400040: Scarh_bolt_end_end
+    400042: Scarh_bolt_end_end_end
+    400044: Scarh_mag_end_end
+    400046: Scarh_mag_end_end_end
+    400048: lhand_end_end_end_end
+    400050: rhand_end_end_end_end
+    400052: Scarh_bolt_end_end_end_end
+    400054: Scarh_mag_end_end_end_end
+    400056: HandsBase 1
+    400058: lhand 1
+    400060: lhand_end 1
+    400062: lhand_end_end 1
+    400064: lhand_end_end_end 1
+    400066: lhand_end_end_end_end 1
+    400068: lhand_end_end_end_end_end
+    400070: lhand_end_end_end_end_end 1
+    400072: rhand 1
+    400074: rhand_end 1
+    400076: rhand_end_end 1
+    400078: rhand_end_end_end 1
+    400080: rhand_end_end_end_end 1
+    400082: rhand_end_end_end_end_end
+    400084: rhand_end_end_end_end_end 1
+    400086: Scarh_arm.001
+    400088: Scarh_base 1
+    400090: Scarh_bolt 1
+    400092: Scarh_bolt_end 1
+    400094: Scarh_bolt_end_end 1
+    400096: Scarh_bolt_end_end_end 1
+    400098: Scarh_bolt_end_end_end_end 1
+    400100: Scarh_bolt_end_end_end_end_end
+    400102: Scarh_bolt_end_end_end_end_end 1
+    400104: Scarh_mag 1
+    400106: Scarh_mag_end 1
+    400108: Scarh_mag_end_end 1
+    400110: Scarh_mag_end_end_end 1
+    400112: Scarh_mag_end_end_end_end 1
+    400114: Scarh_mag_end_end_end_end_end
+    400116: Scarh_mag_end_end_end_end_end 1
+    400118: lhand_end_end_end_end_end_end
+    400120: rhand_end_end_end_end_end_end
+    400122: Scarh_bolt_end_end_end_end_end_end
+    400124: Scarh_mag_end_end_end_end_end_end
+    400126: lhand_end_end_end_end_end_end_end
+    400128: rhand_end_end_end_end_end_end_end
+    400130: Scarh_bolt_end_end_end_end_end_end_end
+    400132: Scarh_mag_end_end_end_end_end_end_end
+    2300000: //RootNode
+    2300002: scarh_base
+    3300000: //RootNode
+    3300002: scarh_base
+    4300000: scarh_base
+    4300002: scarh_base.001
+    7400000: scarh_idle
+    7400002: scarh_fire
+    7400004: scarh_draw
+    7400006: scarh_reload
+    7400008: scarh_fire
+    7400010: scarh_reload
+    11100000: //RootNode
+    13700000: scarh_base
+    13700002: scarh_base.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: scarh_idle
+      takeName: Scarh_arm|Scarh_arm|Scarh_arm|Scarh_arm|Scarh_arm|Scarh_arm|Scarh_arm|Sca
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Scarh_arm
+        weight: 1
+      - path: Scarh_arm/Scarh_base
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end/lhand_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end/lhand_end_end_end/lhand_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end/lhand_end_end_end/lhand_end_end_end_end/lhand_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end/lhand_end_end_end/lhand_end_end_end_end/lhand_end_end_end_end_end/lhand_end_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end/rhand_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end/rhand_end_end_end/rhand_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end/rhand_end_end_end/rhand_end_end_end_end/rhand_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end/rhand_end_end_end/rhand_end_end_end_end/rhand_end_end_end_end_end/rhand_end_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end/Scarh_bolt_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end/Scarh_bolt_end_end_end/Scarh_bolt_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end/Scarh_bolt_end_end_end/Scarh_bolt_end_end_end_end/Scarh_bolt_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end/Scarh_bolt_end_end_end/Scarh_bolt_end_end_end_end/Scarh_bolt_end_end_end_end_end/Scarh_bolt_end_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end/Scarh_mag_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end/Scarh_mag_end_end_end/Scarh_mag_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end/Scarh_mag_end_end_end/Scarh_mag_end_end_end_end/Scarh_mag_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end/Scarh_mag_end_end_end/Scarh_mag_end_end_end_end/Scarh_mag_end_end_end_end_end/Scarh_mag_end_end_end_end_end_end
+        weight: 1
+      - path: scarh_base
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: scarh_reload
+      takeName: Scarh_arm|Scarh_arm|Scarh_arm|Scarh_arm|Scarh_arm|Scarh_arm|Scarh_arm|Sca
+      firstFrame: 100
+      lastFrame: 164
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Scarh_arm
+        weight: 1
+      - path: Scarh_arm/Scarh_base
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end/lhand_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end/lhand_end_end_end/lhand_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end/lhand_end_end_end/lhand_end_end_end_end/lhand_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end/lhand_end_end_end/lhand_end_end_end_end/lhand_end_end_end_end_end/lhand_end_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end/rhand_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end/rhand_end_end_end/rhand_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end/rhand_end_end_end/rhand_end_end_end_end/rhand_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end/rhand_end_end_end/rhand_end_end_end_end/rhand_end_end_end_end_end/rhand_end_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end/Scarh_bolt_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end/Scarh_bolt_end_end_end/Scarh_bolt_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end/Scarh_bolt_end_end_end/Scarh_bolt_end_end_end_end/Scarh_bolt_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end/Scarh_bolt_end_end_end/Scarh_bolt_end_end_end_end/Scarh_bolt_end_end_end_end_end/Scarh_bolt_end_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end/Scarh_mag_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end/Scarh_mag_end_end_end/Scarh_mag_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end/Scarh_mag_end_end_end/Scarh_mag_end_end_end_end/Scarh_mag_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end/Scarh_mag_end_end_end/Scarh_mag_end_end_end_end/Scarh_mag_end_end_end_end_end/Scarh_mag_end_end_end_end_end_end
+        weight: 1
+      - path: scarh_base
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: scarh_draw
+      takeName: Scarh_arm|Scarh_arm|Scarh_arm|Scarh_arm|Scarh_arm|Scarh_arm|Scarh_arm|Sca
+      firstFrame: 60
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Scarh_arm
+        weight: 1
+      - path: Scarh_arm/Scarh_base
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end/lhand_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end/lhand_end_end_end/lhand_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end/lhand_end_end_end/lhand_end_end_end_end/lhand_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end/lhand_end_end_end/lhand_end_end_end_end/lhand_end_end_end_end_end/lhand_end_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end/rhand_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end/rhand_end_end_end/rhand_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end/rhand_end_end_end/rhand_end_end_end_end/rhand_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end/rhand_end_end_end/rhand_end_end_end_end/rhand_end_end_end_end_end/rhand_end_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end/Scarh_bolt_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end/Scarh_bolt_end_end_end/Scarh_bolt_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end/Scarh_bolt_end_end_end/Scarh_bolt_end_end_end_end/Scarh_bolt_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end/Scarh_bolt_end_end_end/Scarh_bolt_end_end_end_end/Scarh_bolt_end_end_end_end_end/Scarh_bolt_end_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end/Scarh_mag_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end/Scarh_mag_end_end_end/Scarh_mag_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end/Scarh_mag_end_end_end/Scarh_mag_end_end_end_end/Scarh_mag_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end/Scarh_mag_end_end_end/Scarh_mag_end_end_end_end/Scarh_mag_end_end_end_end_end/Scarh_mag_end_end_end_end_end_end
+        weight: 1
+      - path: scarh_base
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: scarh_fire
+      takeName: Scarh_arm|Scarh_arm|Scarh_arm|Scarh_arm|Scarh_arm|Scarh_arm|Scarh_arm|Sca
+      firstFrame: 170
+      lastFrame: 177
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Scarh_arm
+        weight: 1
+      - path: Scarh_arm/Scarh_base
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end/lhand_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end/lhand_end_end_end/lhand_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end/lhand_end_end_end/lhand_end_end_end_end/lhand_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/lhand/lhand_end/lhand_end_end/lhand_end_end_end/lhand_end_end_end_end/lhand_end_end_end_end_end/lhand_end_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end/rhand_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end/rhand_end_end_end/rhand_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end/rhand_end_end_end/rhand_end_end_end_end/rhand_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/HandsBase/rhand/rhand_end/rhand_end_end/rhand_end_end_end/rhand_end_end_end_end/rhand_end_end_end_end_end/rhand_end_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end/Scarh_bolt_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end/Scarh_bolt_end_end_end/Scarh_bolt_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end/Scarh_bolt_end_end_end/Scarh_bolt_end_end_end_end/Scarh_bolt_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_bolt/Scarh_bolt_end/Scarh_bolt_end_end/Scarh_bolt_end_end_end/Scarh_bolt_end_end_end_end/Scarh_bolt_end_end_end_end_end/Scarh_bolt_end_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end/Scarh_mag_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end/Scarh_mag_end_end_end/Scarh_mag_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end/Scarh_mag_end_end_end/Scarh_mag_end_end_end_end/Scarh_mag_end_end_end_end_end
+        weight: 1
+      - path: Scarh_arm/Scarh_base/Scarh_mag/Scarh_mag_end/Scarh_mag_end_end/Scarh_mag_end_end_end/Scarh_mag_end_end_end_end/Scarh_mag_end_end_end_end_end/Scarh_mag_end_end_end_end_end_end
+        weight: 1
+      - path: scarh_base
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

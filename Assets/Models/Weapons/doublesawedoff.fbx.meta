@@ -1,0 +1,108 @@
+fileFormatVersion: 2
+guid: 336df900a9de76f47b92c3f5f7606232
+timeCreated: 1485295043
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: boomstick
+    100002: boomstick_armature
+    100004: boomstick_barrels
+    100006: boomstick_base
+    100008: boomstick_shell_0
+    100010: boomstick_shell_0_end
+    100012: boomstick_shell_1
+    100014: boomstick_shell_1_end
+    100016: //RootNode
+    100018: l_hand
+    100020: l_hand_end
+    100022: r_hand
+    100024: r_hand_end
+    400000: boomstick
+    400002: boomstick_armature
+    400004: boomstick_barrels
+    400006: boomstick_base
+    400008: boomstick_shell_0
+    400010: boomstick_shell_0_end
+    400012: boomstick_shell_1
+    400014: boomstick_shell_1_end
+    400016: //RootNode
+    400018: l_hand
+    400020: l_hand_end
+    400022: r_hand
+    400024: r_hand_end
+    4300000: boomstick
+    7400000: boomstick_armature|boomstick_armatureAction.001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: boomstick
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

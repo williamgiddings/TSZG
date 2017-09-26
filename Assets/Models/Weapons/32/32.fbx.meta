@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: 113c5058a2822ee49b53c6863b367d24
+timeCreated: 1479756506
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: 32
+    100004: 32Arm
+    100006: base
+    100008: chamber
+    100010: l_hand
+    100012: l_hand_end
+    100014: r_hand
+    100016: r_hand_end
+    100018: shell_0
+    100020: shell_0_end
+    100022: shell_1
+    100024: shell_1_end
+    400000: //RootNode
+    400002: 32
+    400004: 32Arm
+    400006: base
+    400008: chamber
+    400010: l_hand
+    400012: l_hand_end
+    400014: r_hand
+    400016: r_hand_end
+    400018: shell_0
+    400020: shell_0_end
+    400022: shell_1
+    400024: shell_1_end
+    4300000: 32
+    7400000: 32_idle
+    7400002: 32_fire
+    7400004: 32_reload
+    7400006: 32_draw
+    7400008: 32_holster
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: 32
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: 32_idle
+      takeName: 32Arm|44.001Action
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 32
+        weight: 1
+      - path: 32Arm
+        weight: 1
+      - path: 32Arm/base
+        weight: 1
+      - path: 32Arm/base/chamber
+        weight: 1
+      - path: 32Arm/base/chamber/shell_0
+        weight: 1
+      - path: 32Arm/base/chamber/shell_0/shell_0_end
+        weight: 1
+      - path: 32Arm/base/chamber/shell_1
+        weight: 1
+      - path: 32Arm/base/chamber/shell_1/shell_1_end
+        weight: 1
+      - path: 32Arm/base/l_hand
+        weight: 1
+      - path: 32Arm/base/l_hand/l_hand_end
+        weight: 1
+      - path: 32Arm/base/r_hand
+        weight: 1
+      - path: 32Arm/base/r_hand/r_hand_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 32_fire
+      takeName: 32Arm|44.001Action
+      firstFrame: 130
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 32
+        weight: 1
+      - path: 32Arm
+        weight: 1
+      - path: 32Arm/base
+        weight: 1
+      - path: 32Arm/base/chamber
+        weight: 1
+      - path: 32Arm/base/chamber/shell_0
+        weight: 1
+      - path: 32Arm/base/chamber/shell_0/shell_0_end
+        weight: 1
+      - path: 32Arm/base/chamber/shell_1
+        weight: 1
+      - path: 32Arm/base/chamber/shell_1/shell_1_end
+        weight: 1
+      - path: 32Arm/base/l_hand
+        weight: 1
+      - path: 32Arm/base/l_hand/l_hand_end
+        weight: 1
+      - path: 32Arm/base/r_hand
+        weight: 1
+      - path: 32Arm/base/r_hand/r_hand_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 32_reload
+      takeName: 32Arm|44.001Action
+      firstFrame: 160
+      lastFrame: 341
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.7155172
+        functionName: openChamber
+        data: 
+        objectReferenceParameter: {fileID: 8300000, guid: 51a5b1303f4b9d94596b04fdb289d64e,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 32
+        weight: 1
+      - path: 32Arm
+        weight: 1
+      - path: 32Arm/base
+        weight: 1
+      - path: 32Arm/base/chamber
+        weight: 1
+      - path: 32Arm/base/chamber/shell_0
+        weight: 1
+      - path: 32Arm/base/chamber/shell_0/shell_0_end
+        weight: 1
+      - path: 32Arm/base/chamber/shell_1
+        weight: 1
+      - path: 32Arm/base/chamber/shell_1/shell_1_end
+        weight: 1
+      - path: 32Arm/base/l_hand
+        weight: 1
+      - path: 32Arm/base/l_hand/l_hand_end
+        weight: 1
+      - path: 32Arm/base/r_hand
+        weight: 1
+      - path: 32Arm/base/r_hand/r_hand_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 32_draw
+      takeName: 32Arm|44.001Action
+      firstFrame: 350
+      lastFrame: 387
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 32
+        weight: 1
+      - path: 32Arm
+        weight: 1
+      - path: 32Arm/base
+        weight: 1
+      - path: 32Arm/base/chamber
+        weight: 1
+      - path: 32Arm/base/chamber/shell_0
+        weight: 1
+      - path: 32Arm/base/chamber/shell_0/shell_0_end
+        weight: 1
+      - path: 32Arm/base/chamber/shell_1
+        weight: 1
+      - path: 32Arm/base/chamber/shell_1/shell_1_end
+        weight: 1
+      - path: 32Arm/base/l_hand
+        weight: 1
+      - path: 32Arm/base/l_hand/l_hand_end
+        weight: 1
+      - path: 32Arm/base/r_hand
+        weight: 1
+      - path: 32Arm/base/r_hand/r_hand_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 32_holster
+      takeName: 32Arm|44.001Action
+      firstFrame: 395
+      lastFrame: 404
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 32
+        weight: 1
+      - path: 32Arm
+        weight: 1
+      - path: 32Arm/base
+        weight: 1
+      - path: 32Arm/base/chamber
+        weight: 1
+      - path: 32Arm/base/chamber/shell_0
+        weight: 1
+      - path: 32Arm/base/chamber/shell_0/shell_0_end
+        weight: 1
+      - path: 32Arm/base/chamber/shell_1
+        weight: 1
+      - path: 32Arm/base/chamber/shell_1/shell_1_end
+        weight: 1
+      - path: 32Arm/base/l_hand
+        weight: 1
+      - path: 32Arm/base/l_hand/l_hand_end
+        weight: 1
+      - path: 32Arm/base/r_hand
+        weight: 1
+      - path: 32Arm/base/r_hand/r_hand_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 32
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

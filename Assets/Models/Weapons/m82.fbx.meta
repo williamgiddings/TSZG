@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: baaed73716ab69640a98792bfa54386c
+timeCreated: 1484328550
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: l_hand
+    100004: l_hand_end
+    100006: //RootNode
+    100008: m82_base
+    100010: m82_base 1
+    100012: m82_bolt
+    100014: m82_bolt_end
+    100016: m82_mag
+    100018: m82_mag_end
+    100020: r_hand
+    100022: r_hand_end
+    100024: Camera
+    100026: m82_barrel
+    100028: m82_barrel_end
+    100030: l_hand_end_end
+    100032: m82_barrel_end_end
+    100034: m82_bolt_end_end
+    100036: m82_mag_end_end
+    100038: r_hand_end_end
+    100040: l_hand_end_end_end
+    100042: m82_barrel_end_end_end
+    100044: m82_bolt_end_end_end
+    100046: m82_mag_end_end_end
+    100048: r_hand_end_end_end
+    100050: l_hand_end_end_end_end
+    100052: m82_barrel_end_end_end_end
+    100054: m82_bolt_end_end_end_end
+    100056: m82_mag_end_end_end_end
+    100058: r_hand_end_end_end_end
+    400000: Armature
+    400002: l_hand
+    400004: l_hand_end
+    400006: //RootNode
+    400008: m82_base
+    400010: m82_base 1
+    400012: m82_bolt
+    400014: m82_bolt_end
+    400016: m82_mag
+    400018: m82_mag_end
+    400020: r_hand
+    400022: r_hand_end
+    400024: Camera
+    400026: m82_barrel
+    400028: m82_barrel_end
+    400030: l_hand_end_end
+    400032: m82_barrel_end_end
+    400034: m82_bolt_end_end
+    400036: m82_mag_end_end
+    400038: r_hand_end_end
+    400040: l_hand_end_end_end
+    400042: m82_barrel_end_end_end
+    400044: m82_bolt_end_end_end
+    400046: m82_mag_end_end_end
+    400048: r_hand_end_end_end
+    400050: l_hand_end_end_end_end
+    400052: m82_barrel_end_end_end_end
+    400054: m82_bolt_end_end_end_end
+    400056: m82_mag_end_end_end_end
+    400058: r_hand_end_end_end_end
+    4300000: m82_base
+    7400000: m82_idle
+    7400002: m82_fire
+    7400004: m82_reload
+    7400006: m82_holster
+    7400008: m82_draw
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: m82_base
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: m82_idle
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 160
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/m82_base 1
+        weight: 1
+      - path: Armature/m82_base 1/l_hand
+        weight: 1
+      - path: Armature/m82_base 1/l_hand/l_hand_end
+        weight: 1
+      - path: Armature/m82_base 1/m82_bolt
+        weight: 1
+      - path: Armature/m82_base 1/m82_bolt/m82_bolt_end
+        weight: 1
+      - path: Armature/m82_base 1/m82_mag
+        weight: 1
+      - path: Armature/m82_base 1/m82_mag/m82_mag_end
+        weight: 1
+      - path: Armature/m82_base 1/r_hand
+        weight: 1
+      - path: Armature/m82_base 1/r_hand/r_hand_end
+        weight: 1
+      - path: m82_base
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: m82_fire
+      takeName: Armature|ArmatureAction
+      firstFrame: 180
+      lastFrame: 205
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/m82_base 1
+        weight: 1
+      - path: Armature/m82_base 1/l_hand
+        weight: 1
+      - path: Armature/m82_base 1/l_hand/l_hand_end
+        weight: 1
+      - path: Armature/m82_base 1/m82_bolt
+        weight: 1
+      - path: Armature/m82_base 1/m82_bolt/m82_bolt_end
+        weight: 1
+      - path: Armature/m82_base 1/m82_mag
+        weight: 1
+      - path: Armature/m82_base 1/m82_mag/m82_mag_end
+        weight: 1
+      - path: Armature/m82_base 1/r_hand
+        weight: 1
+      - path: Armature/m82_base 1/r_hand/r_hand_end
+        weight: 1
+      - path: m82_base
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: m82_reload
+      takeName: Armature|ArmatureAction
+      firstFrame: 211
+      lastFrame: 411
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/m82_base 1
+        weight: 1
+      - path: Armature/m82_base 1/l_hand
+        weight: 1
+      - path: Armature/m82_base 1/l_hand/l_hand_end
+        weight: 1
+      - path: Armature/m82_base 1/m82_bolt
+        weight: 1
+      - path: Armature/m82_base 1/m82_bolt/m82_bolt_end
+        weight: 1
+      - path: Armature/m82_base 1/m82_mag
+        weight: 1
+      - path: Armature/m82_base 1/m82_mag/m82_mag_end
+        weight: 1
+      - path: Armature/m82_base 1/r_hand
+        weight: 1
+      - path: Armature/m82_base 1/r_hand/r_hand_end
+        weight: 1
+      - path: m82_base
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: m82_holster
+      takeName: Armature|ArmatureAction
+      firstFrame: 430
+      lastFrame: 450
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/m82_base 1
+        weight: 1
+      - path: Armature/m82_base 1/l_hand
+        weight: 1
+      - path: Armature/m82_base 1/l_hand/l_hand_end
+        weight: 1
+      - path: Armature/m82_base 1/m82_bolt
+        weight: 1
+      - path: Armature/m82_base 1/m82_bolt/m82_bolt_end
+        weight: 1
+      - path: Armature/m82_base 1/m82_mag
+        weight: 1
+      - path: Armature/m82_base 1/m82_mag/m82_mag_end
+        weight: 1
+      - path: Armature/m82_base 1/r_hand
+        weight: 1
+      - path: Armature/m82_base 1/r_hand/r_hand_end
+        weight: 1
+      - path: m82_base
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: m82_draw
+      takeName: Armature|ArmatureAction
+      firstFrame: 471
+      lastFrame: 538
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/m82_base 1
+        weight: 1
+      - path: Armature/m82_base 1/l_hand
+        weight: 1
+      - path: Armature/m82_base 1/l_hand/l_hand_end
+        weight: 1
+      - path: Armature/m82_base 1/m82_bolt
+        weight: 1
+      - path: Armature/m82_base 1/m82_bolt/m82_bolt_end
+        weight: 1
+      - path: Armature/m82_base 1/m82_mag
+        weight: 1
+      - path: Armature/m82_base 1/m82_mag/m82_mag_end
+        weight: 1
+      - path: Armature/m82_base 1/r_hand
+        weight: 1
+      - path: Armature/m82_base 1/r_hand/r_hand_end
+        weight: 1
+      - path: m82_base
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.8
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: b1f579be666816b438d418970071065c
+timeCreated: 1474128771
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Armature
+    100004: Camera
+    100006: hand_base
+    100008: hands
+    100010: l_hand
+    100012: l_hand_end
+    100014: pumpshotty
+    100016: pumpshotty_base
+    100018: pumpshotty_pump
+    100020: pumpshotty_pump_end
+    100022: r_hand
+    100024: r_hand_end
+    100026: Sphere
+    100028: pumpshotty.001
+    100030: pumpshotty_L_hand
+    100032: pumpshotty_L_hand_end
+    100034: pumpshotty_L_hand_end_end
+    100036: pumpshotty_pump_end_end
+    100038: pumpshotty_R_hand
+    100040: pumpshotty_R_hand_end
+    100042: pumpshotty_R_hand_end_end
+    100044: pumpshotty_L_hand_end_end_end
+    100046: pumpshotty_pump_end_end_end
+    100048: pumpshotty_R_hand_end_end_end
+    400000: //RootNode
+    400002: Armature
+    400004: Camera
+    400006: hand_base
+    400008: hands
+    400010: l_hand
+    400012: l_hand_end
+    400014: pumpshotty
+    400016: pumpshotty_base
+    400018: pumpshotty_pump
+    400020: pumpshotty_pump_end
+    400022: r_hand
+    400024: r_hand_end
+    400026: Sphere
+    400028: pumpshotty.001
+    400030: pumpshotty_L_hand
+    400032: pumpshotty_L_hand_end
+    400034: pumpshotty_L_hand_end_end
+    400036: pumpshotty_pump_end_end
+    400038: pumpshotty_R_hand
+    400040: pumpshotty_R_hand_end
+    400042: pumpshotty_R_hand_end_end
+    400044: pumpshotty_L_hand_end_end_end
+    400046: pumpshotty_pump_end_end_end
+    400048: pumpshotty_R_hand_end_end_end
+    2300000: //RootNode
+    2300002: hands
+    2300004: pumpshotty
+    2300006: Sphere
+    3300000: //RootNode
+    3300002: hands
+    3300004: pumpshotty
+    3300006: Sphere
+    4300000: pumpshotty
+    4300002: hands
+    4300004: Sphere
+    4300006: pumpshotty.001
+    7400000: Camera|CameraAction
+    7400002: Camera|Sphere.001Action
+    7400004: pumpshotty_draw
+    7400006: Armature|CameraAction
+    7400008: Armature|Sphere.001Action
+    7400010: hands|CameraAction
+    7400012: hands|Sphere.001Action
+    7400014: pumpshotty_pump
+    7400016: pumpshotty_fire
+    7400018: pumpshotty_reloadstart
+    7400020: pumpshotty_shellinsert
+    7400022: pumpshotty_melee
+    7400024: pumpshotty_holster
+    7400026: pumpshotty_lower
+    7400028: pumpshotty_idle
+    11100000: //RootNode
+    13700000: hands
+    13700002: pumpshotty
+    13700004: pumpshotty.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: pumpshotty_draw
+      takeName: Armature|Armature|Armature|ArmatureAction|Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/pumpshotty_base
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end/pumpshotty_L_hand_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end/pumpshotty_L_hand_end_end/pumpshotty_L_hand_end_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end/pumpshotty_pump_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end/pumpshotty_pump_end_end/pumpshotty_pump_end_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end/pumpshotty_R_hand_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end/pumpshotty_R_hand_end_end/pumpshotty_R_hand_end_end_end
+        weight: 1
+      - path: pumpshotty
+        weight: 1
+      - path: pumpshotty.001
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pumpshotty_pump
+      takeName: Armature|Armature|Armature|ArmatureAction|Armature|ArmatureAction
+      firstFrame: 25
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/pumpshotty_base
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end/pumpshotty_L_hand_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end/pumpshotty_L_hand_end_end/pumpshotty_L_hand_end_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end/pumpshotty_pump_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end/pumpshotty_pump_end_end/pumpshotty_pump_end_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end/pumpshotty_R_hand_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end/pumpshotty_R_hand_end_end/pumpshotty_R_hand_end_end_end
+        weight: 1
+      - path: pumpshotty
+        weight: 1
+      - path: pumpshotty.001
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pumpshotty_fire
+      takeName: Armature|Armature|Armature|ArmatureAction|Armature|ArmatureAction
+      firstFrame: 60
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/pumpshotty_base
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end/pumpshotty_L_hand_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end/pumpshotty_L_hand_end_end/pumpshotty_L_hand_end_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end/pumpshotty_pump_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end/pumpshotty_pump_end_end/pumpshotty_pump_end_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end/pumpshotty_R_hand_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end/pumpshotty_R_hand_end_end/pumpshotty_R_hand_end_end_end
+        weight: 1
+      - path: pumpshotty
+        weight: 1
+      - path: pumpshotty.001
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pumpshotty_reloadstart
+      takeName: Armature|Armature|Armature|ArmatureAction|Armature|ArmatureAction
+      firstFrame: 93
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/pumpshotty_base
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end/pumpshotty_L_hand_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end/pumpshotty_L_hand_end_end/pumpshotty_L_hand_end_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end/pumpshotty_pump_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end/pumpshotty_pump_end_end/pumpshotty_pump_end_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end/pumpshotty_R_hand_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end/pumpshotty_R_hand_end_end/pumpshotty_R_hand_end_end_end
+        weight: 1
+      - path: pumpshotty
+        weight: 1
+      - path: pumpshotty.001
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pumpshotty_shellinsert
+      takeName: Armature|Armature|Armature|ArmatureAction|Armature|ArmatureAction
+      firstFrame: 110
+      lastFrame: 123
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/pumpshotty_base
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end/pumpshotty_L_hand_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end/pumpshotty_L_hand_end_end/pumpshotty_L_hand_end_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end/pumpshotty_pump_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end/pumpshotty_pump_end_end/pumpshotty_pump_end_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end/pumpshotty_R_hand_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end/pumpshotty_R_hand_end_end/pumpshotty_R_hand_end_end_end
+        weight: 1
+      - path: pumpshotty
+        weight: 1
+      - path: pumpshotty.001
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pumpshotty_melee
+      takeName: Armature|Armature|Armature|ArmatureAction|Armature|ArmatureAction
+      firstFrame: 130
+      lastFrame: 181
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/pumpshotty_base
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end/pumpshotty_L_hand_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end/pumpshotty_L_hand_end_end/pumpshotty_L_hand_end_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end/pumpshotty_pump_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end/pumpshotty_pump_end_end/pumpshotty_pump_end_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end/pumpshotty_R_hand_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end/pumpshotty_R_hand_end_end/pumpshotty_R_hand_end_end_end
+        weight: 1
+      - path: pumpshotty
+        weight: 1
+      - path: pumpshotty.001
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pumpshotty_holster
+      takeName: Armature|Armature|Armature|ArmatureAction|Armature|ArmatureAction
+      firstFrame: 185
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/pumpshotty_base
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end/pumpshotty_L_hand_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end/pumpshotty_L_hand_end_end/pumpshotty_L_hand_end_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end/pumpshotty_pump_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end/pumpshotty_pump_end_end/pumpshotty_pump_end_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end/pumpshotty_R_hand_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end/pumpshotty_R_hand_end_end/pumpshotty_R_hand_end_end_end
+        weight: 1
+      - path: pumpshotty
+        weight: 1
+      - path: pumpshotty.001
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pumpshotty_lower
+      takeName: Armature|Armature|Armature|ArmatureAction|Armature|ArmatureAction
+      firstFrame: 203
+      lastFrame: 212
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/pumpshotty_base
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end/pumpshotty_L_hand_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end/pumpshotty_L_hand_end_end/pumpshotty_L_hand_end_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end/pumpshotty_pump_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end/pumpshotty_pump_end_end/pumpshotty_pump_end_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end/pumpshotty_R_hand_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end/pumpshotty_R_hand_end_end/pumpshotty_R_hand_end_end_end
+        weight: 1
+      - path: pumpshotty
+        weight: 1
+      - path: pumpshotty.001
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pumpshotty_idle
+      takeName: Armature|Armature|Armature|ArmatureAction|Armature|ArmatureAction
+      firstFrame: 221
+      lastFrame: 268
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/pumpshotty_base
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end/pumpshotty_L_hand_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_L_hand/pumpshotty_L_hand_end/pumpshotty_L_hand_end_end/pumpshotty_L_hand_end_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end/pumpshotty_pump_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_pump/pumpshotty_pump_end/pumpshotty_pump_end_end/pumpshotty_pump_end_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end/pumpshotty_R_hand_end_end
+        weight: 1
+      - path: Armature/pumpshotty_base/pumpshotty_R_hand/pumpshotty_R_hand_end/pumpshotty_R_hand_end_end/pumpshotty_R_hand_end_end_end
+        weight: 1
+      - path: pumpshotty
+        weight: 1
+      - path: pumpshotty.001
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.32696
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
